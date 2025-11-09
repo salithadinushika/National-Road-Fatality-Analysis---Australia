@@ -1,6 +1,6 @@
 # Understanding Road Fatalities in Australia: A Data‑Driven Insight
 
-
+---
 
 ## Overview
 Road safety remains a critical public health challenge in Australia. Despite investments in enforcement, infrastructure, and education, the national annual fatality trend across the last 10 years has remained relatively stable. This project investigates underlying patterns and identifies high-impact groups that should be prioritized for targeted interventions.
