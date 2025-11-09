@@ -26,9 +26,6 @@ Key steps included:
 - **Category grouping:** Granular variables (e.g., speed limits) consolidated into logical ranges: 0–29, 30–59, 60–89, 90–119, 120+ km/h
 - **Derived columns:** Months, Maximum Speed Limit Groups, Age Groups, Time-of-Day Groups, Road User Groups
 
-![Time of Day Grouping](./images/time-of-day-grouping.png)
-*Example of Time of Day grouping used to simplify KPI visualizations.*
-
 ## 5. KPI Analysis & Key Insights
 The analysis was conducted across ten dimensions:
 
@@ -56,7 +53,7 @@ The dashboard presents all KPIs interactively using graphs and charts, allowing 
 ### Highest Risk Profiles Feature
 A dedicated section titled **"Highest Risk Profiles"** allows users to select any combination of KPIs via tick boxes and view the **top three contributing risk groups instantly**. This facilitates targeted decision-making for policymakers.
 
-![Highest Risk Profiles](./images/highest-risk-profiles.jpg)
+![Highest Risk Profiles](./images/high-risk-profiles.jpg)
 *Dashboard section highlighting the top contributing risk groups based on user-selected KPIs.*
 
 ## Conclusion & Next Steps
