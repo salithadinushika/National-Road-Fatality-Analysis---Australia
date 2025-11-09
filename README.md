@@ -50,6 +50,7 @@ The dashboard presents all KPIs interactively using graphs and charts, allowing 
 - KPIs update automatically  
 - "High-Contributing Groups" selector identifies top contributing demographic or environmental groups
 
+![Annual Fatalities Trend](./images/annual-fatalities-trend.png)
 ![Dashboard Overview](./images/dashboard-screenshot.png)
 *Full interactive dashboard showing KPIs and filters.*
 
