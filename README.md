@@ -1,7 +1,5 @@
 # Understanding Road Fatalities in Australia: A Data‑Driven Insight
 
-**By Salitha Dinushika — Data Analyst | Statistical Modeller | Dashboard Designer**
-
 ---
 
 ## Overview
