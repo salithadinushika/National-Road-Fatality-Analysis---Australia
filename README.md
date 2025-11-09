@@ -1,85 +1,74 @@
-# National Road Fatality Analysis — Australia
+# 🇦🇺 National Road Fatality Monitor: Data-Driven Insight for Smarter Road Safety Decisions
 
-![Dashboard Screenshot](./images/dashboard-screenshot.png)
+## 🎯 Overview
 
-## Overview
-This project analyzes **national road fatalities in Australia** over the last 10 years using official data from the [National Road Safety Data Hub](https://datahub.roadsafety.gov.au/). The goal is to uncover patterns in road deaths across demographics, road types, and time periods, and to provide actionable insights for policymakers and road safety authorities.
+Despite ongoing investments in enforcement, infrastructure, and education, the national annual road fatality trend in Australia has remained relatively stable over the last 10 years.
 
-The interactive dashboard presents all key performance indicators (KPIs) using graphs and charts, allowing users to explore trends effectively.
+This project investigates why current road safety strategies may have limited effectiveness by identifying **high-impact groups** that should be prioritized for targeted interventions. We leverage a comprehensive data-driven analysis to uncover specific patterns across various dimensions, enabling better policy prioritization and more effective resource allocation.
 
----
+## 📊 Key Insights & Top Risk Profiles
 
-## Dataset
-- Source: [Australian Road Deaths Database (September 2025)](https://datahub.roadsafety.gov.au/sites/default/files/documents/Australian%20Road%20Deaths%20Database%20September%202025.xlsx)
-- Years analyzed: Last 10 years (2015–2025)
-- Notes: Data cleaning included handling missing values, grouping categories, and creating derived columns for easier visualization.
+The analysis focused on ten crucial dimensions, including demographics, road environment, and temporal factors.
 
----
+### Top Fatality Profiles (Based on Gender and Age Group)
 
-## Tools Used
-- **Microsoft Excel** — for data cleaning, transformation, pivot tables, and dashboard creation
-- **Charts & Graphs** — bar charts, pie charts, line charts for KPI visualization
-- **Interactive Features** — slicers, tick boxes, and dynamic KPI filtering
+When filtering by **Gender** and **Age Group**, the following profiles contribute most significantly to total fatalities:
 
----
+| Rank | Percentage | Profile Definition |
+| :--- | :--- | :--- |
+| **No 01** | **22.6%** | Male, Young-to-Mid Adults |
+| **No 02** | **18.7%** | Male, Mature Adults |
+| **No 03** | **15.8%** | Male, Young |
 
-## Data Cleaning & Preparation
-Key steps included:
-- Handling missing values (labeled as "Unknown")
-- Selecting the last 10 years of relevant data
-- Grouping categorical variables for simplicity (e.g., speed limits grouped into ranges)
-- Creating helper columns: Age Group, Time of Day buckets, Remoteness level, Weekday names
+### Summary of Dashboard Metrics
 
-**Example: Time of Day Grouping**
+The interactive dashboard includes Key Performance Indicators (KPIs) visualized across the following dimensions:
 
-| Time Range | Label          |
-|------------|----------------|
-| 00:00–05:59| Early Morning  |
-| 06:00–11:59| Morning        |
-| 12:00–17:59| Afternoon      |
-| 18:00–23:59| Evening        |
+* Annual Fatalities Trend
+* Fatalities by Month
+* Fatalities by Weekday
+* Fatalities by Road User
+* Fatalities by Time of Day
+* Fatalities by Speed Limit (km/h)
+* Fatalities by Gender
+* Fatalities by Remoteness
+* Fatalities by State
+* Fatalities by Age Group
 
----
+## 🛠️ Tools & Technologies
 
-## Key KPIs Analyzed
-- Annual Fatalities Trend
-- Fatalities by Month
-- Fatalities by Road User
-- Fatalities by Weekday
-- Fatalities by Time of Day
-- Fatalities by Maximum Road Speed Limit
-- Fatalities by Gender
-- Fatalities by State
-- Fatalities by Remoteness
-- Fatalities by Age Group
+The entire data pipeline and analysis were completed using **Microsoft Excel**. This project demonstrates strong end-to-end analysis capability using a widely accessible tool, including:
 
-**Primary Insight:** The annual fatality count has remained relatively constant over the past 10 years, suggesting that current broad programs may not be sufficiently targeted.
+* Data transformation and cleaning.
+* Creation of pivot tables and slicers.
+* Design of a responsive dashboard layout.
 
----
+## 📁 Dataset & Data Preparation
 
-## Interactive Dashboard & Features
-### Highest Risk Profiles
-The dashboard includes a **dedicated section** titled "Highest Risk Profiles" where users can:
-- Select any combination of KPIs using tick boxes
-- Instantly view the **top three contributing risk groups** based on their selection
-- Focus interventions on high-impact areas to reduce fatalities
+### Data Source
+The analysis uses official records from the **National Road Safety Data Hub**:
+* **Dataset:** Australian Road Deaths Database (Sept 2025).
+* **Time Period:** The most recent 10 years of fatality records were selected to ensure relevance to the current environment.
 
-### Dashboard Features
-- Select year ranges and states
-- Automatically update KPI visualizations
-- Explore patterns by demographics, road types, and temporal factors
+### Key Preprocessing Steps
+* **Missing Values:** Labeled as "**Unknown**" and kept for analysis to avoid information loss.
+* **Category Grouping:** Granular values were consolidated into logical ranges (e.g., speed limits into 0-29, 30-59, 60-89, 90-119, $120+km/h$).
+* **Derived Columns:** Helper columns were created to simplify visualization and aggregation for categories like Age Groups, Time-of-Day Groups, and Road User Groups.
 
-![Dashboard Screenshot](./images/dashboard-screenshot.png)
+## 💻 Interactive Dashboard
+
+The dashboard presents all KPIs interactively, allowing users to **explore trends and patterns effectively**:
+
+* **Custom Filtering:** Users can select year ranges and one or multiple states.
+* **Automatic Updates:** KPIs update automatically based on selected filters.
+* **Targeted Analysis:** The **"Highest Risk Profiles"** feature allows users to select any combination of KPIs to instantly view the top three contributing risk groups, enabling targeted decision-making.
+
+| Metric | Value |
+| :--- | :--- |
+| **Total Deaths (10 years)** | 11,995 |
+| **Avg. Annual Deaths** | 1,200 |
+| **2025 National Forecast** | 1,288 |
 
 ---
 
-## Conclusion
-This project demonstrates:
-- End-to-end data analysis in Excel
-- Data cleaning, aggregation, and KPI creation
-- Dashboard creation with interactive charts
-- Policy-relevant insights for road safety intervention prioritization
-
----
-
-## Repository Structure
+Would you like me to generate a table of contents for this README, or perhaps add a section for potential future work?
