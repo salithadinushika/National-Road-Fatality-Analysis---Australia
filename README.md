@@ -1,36 +1,23 @@
 # Understanding Road Fatalities in Australia: A Data‑Driven Insight for Smarter Road Safety Decisions
 
----
-
 ## Overview
-Road safety remains a critical public health challenge in Australia. Despite investments in enforcement, infrastructure, and education, the national annual fatality trend across the last 10 years has remained relatively stable. This project investigates underlying patterns and identifies high-impact groups that should be prioritized for targeted interventions.
+Road safety remains a critical public health challenge in Australia. Despite investments in enforcement, infrastructure, and education, the national annual fatality trend across the last 10 years remains relatively stable. This project investigates why that may be the case and identifies the high‑impact groups that should be prioritised for targeted interventions.
 
 ![Annual Fatalities Trend](./images/annual-fatalities-trend.png)
 *Annual fatalities trend over the last 10 years in Australia.*
 
-The interactive Excel dashboard presents all key performance indicators (KPIs) using graphs and charts, allowing users to explore trends effectively and make data-driven decisions.
-
----
-
 ## 1. Problem Statement
-Although multiple agencies run road safety programs, the persistent average number of annual fatalities suggests limited effectiveness of current strategies. This project focuses on uncovering patterns by state, demographic group, road environment, and temporal factors to identify high-contributing groups, enabling better policy prioritization and more effective allocation of resources.
-
----
+Although multiple agencies run road safety programs, the persistent average number of annual fatalities suggests limited effectiveness of current strategies. This project focuses on uncovering patterns by state, demographic group, road environment, and temporal factors to identify high-contributing groups, enabling better policy prioritisation and more effective allocation of limited resources.
 
 ## 2. Dataset
 - Source: [National Road Safety Data Hub](https://datahub.roadsafety.gov.au/)
 - Dataset: [Australian Road Deaths Database (Sept 2025)](https://datahub.roadsafety.gov.au/sites/default/files/documents/Australian%20Road%20Deaths%20Database%20September%202025.xlsx)
-- Years analyzed: Last 10 years (2015–2025)
-- Notes: Data cleaning included handling missing values, grouping categories, and creating derived columns for easier visualization.
-
----
+- Years analyzed: Last 10 years (2015–2024)
 
 ## 3. Tools Used
 - **Microsoft Excel** — for data transformation, cleaning, pivot tables, slicers, and interactive dashboard layout
 - **Charts & Graphs** — bar charts, pie charts, and line charts for KPI visualization
 - **Interactive Features** — slicers and tick boxes for dynamic KPI filtering
-
----
 
 ## 4. Data Cleaning & Preparation
 Key steps included:
@@ -41,8 +28,6 @@ Key steps included:
 
 ![Time of Day Grouping](./images/time-of-day-grouping.png)
 *Example of Time of Day grouping used to simplify KPI visualizations.*
-
----
 
 ## 5. KPI Analysis & Key Insights
 The analysis was conducted across ten dimensions:
@@ -58,12 +43,8 @@ The analysis was conducted across ten dimensions:
 - Fatalities by Remoteness  
 - Fatalities by Age Group  
 
-**Primary insight:** National annual fatalities have remained relatively stable, suggesting current broad programs may not be sufficiently targeted.
-
----
-
 ## 6. Data Visualization & Interactive Dashboard
-The dashboard presents all KPIs interactively using graphs and charts:
+The dashboard presents all KPIs interactively using graphs and charts, allowing users to explore trends and patterns effectively and to:
 
 - Select year ranges and one or multiple states  
 - KPIs update automatically  
@@ -78,18 +59,11 @@ A dedicated section titled **"Highest Risk Profiles"** allows users to select an
 ![Highest Risk Profiles](./images/highest-risk-profiles.png)
 *Dashboard section highlighting the top contributing risk groups based on user-selected KPIs.*
 
----
-
 ## Conclusion & Next Steps
-Targeted interventions guided by data are more effective than one-size-fits-all programs. The dashboard helps identify priority groups and design measurable interventions.
+Targeted interventions guided by data are more likely to reduce road fatalities than one‑size‑fits‑all programs. By using this dashboard, policymakers and program designers can quickly identify priority groups and tailor interventions with measurable outcomes.
 
-**Capabilities demonstrated:** End-to-end Excel data pipeline, cleaning, KPI selection, interactive dashboard design, and policy-relevant insights.
-
----
+**Capabilities demonstrated:** complete data pipeline in Excel, thoughtful cleaning and grouping, KPI selection, interactive dashboard design, and policy‑relevant insight generation.
 
 ## Credits & Dataset
 Data source: [National Road Safety Data Hub](https://datahub.roadsafety.gov.au/)
 
----
-
-## Repository Structure
