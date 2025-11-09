@@ -50,14 +50,13 @@ The dashboard presents all KPIs interactively using graphs and charts, allowing 
 - KPIs update automatically  
 - "High-Contributing Groups" selector identifies top contributing demographic or environmental groups
 
-![Annual Fatalities Trend](./images/dashboard-screenshot.png)
-![Dashboard Overview](./images/dashboard-screenshot.png)
+![Dashboard Overview](./images/dashboard-screenshot.jpg)
 *Full interactive dashboard showing KPIs and filters.*
 
 ### Highest Risk Profiles Feature
 A dedicated section titled **"Highest Risk Profiles"** allows users to select any combination of KPIs via tick boxes and view the **top three contributing risk groups instantly**. This facilitates targeted decision-making for policymakers.
 
-![Highest Risk Profiles](./images/highest-risk-profiles.png)
+![Highest Risk Profiles](./images/highest-risk-profiles.jpg)
 *Dashboard section highlighting the top contributing risk groups based on user-selected KPIs.*
 
 ## Conclusion & Next Steps
