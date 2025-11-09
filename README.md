@@ -7,6 +7,9 @@
 ## Overview
 Road safety remains a critical public health challenge in Australia. Despite investments in enforcement, infrastructure, and education, the national annual fatality trend across the last 10 years has remained relatively stable. This project investigates underlying patterns and identifies high-impact groups that should be prioritized for targeted interventions.
 
+![Annual Fatalities Trend](./images/annual-fatalities-trend.png)
+*Annual fatalities trend over the last 10 years in Australia.*
+
 The interactive Excel dashboard presents all key performance indicators (KPIs) using graphs and charts, allowing users to explore trends effectively and make data-driven decisions.
 
 ---
@@ -38,14 +41,8 @@ Key steps included:
 - **Category grouping:** Granular variables (e.g., speed limits) consolidated into logical ranges: 0–29, 30–59, 60–89, 90–119, 120+ km/h
 - **Derived columns:** Months, Maximum Speed Limit Groups, Age Groups, Time-of-Day Groups, Road User Groups
 
-**Example: Time of Day Grouping**
-
-| Time Range    | Label         |
-|---------------|---------------|
-| 00:00–05:59   | Early Morning |
-| 06:00–11:59   | Morning       |
-| 12:00–17:59   | Afternoon     |
-| 18:00–23:59   | Evening       |
+![Time of Day Grouping](./images/time-of-day-grouping.png)
+*Example of Time of Day grouping used to simplify KPI visualizations.*
 
 ---
 
@@ -68,16 +65,20 @@ The analysis was conducted across ten dimensions:
 ---
 
 ## 6. Data Visualization & Interactive Dashboard
-The dashboard presents all KPIs interactively:
+The dashboard presents all KPIs interactively using graphs and charts:
 
 - Select year ranges and one or multiple states  
 - KPIs update automatically  
 - "High-Contributing Groups" selector identifies top contributing demographic or environmental groups
 
-**Highest Risk Profiles Feature:**  
-A dedicated section titled "Highest Risk Profiles" allows users to select any combination of KPIs via tick boxes and view the top three contributing risk groups instantly. This facilitates targeted decision-making for policymakers.
+![Dashboard Overview](./images/dashboard-screenshot.png)
+*Full interactive dashboard showing KPIs and filters.*
 
-![Dashboard Screenshot](./images/dashboard-screenshot.png)
+### Highest Risk Profiles Feature
+A dedicated section titled **"Highest Risk Profiles"** allows users to select any combination of KPIs via tick boxes and view the **top three contributing risk groups instantly**. This facilitates targeted decision-making for policymakers.
+
+![Highest Risk Profiles](./images/highest-risk-profiles.png)
+*Dashboard section highlighting the top contributing risk groups based on user-selected KPIs.*
 
 ---
 
