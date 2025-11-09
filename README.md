@@ -8,6 +8,9 @@ Road safety remains a critical public health challenge in Australia. Despite inv
 ![Annual Fatalities Trend](./images/annual-fatalities-trend.png)
 *Annual fatalities trend over the last 10 years in Australia.*
 
+![Annual Fatalities Trend](Dashboard.png)
+*Annual fatalities trend over the last 10 years in Australia.*
+
 The interactive Excel dashboard presents all key performance indicators (KPIs) using graphs and charts, allowing users to explore trends effectively and make data-driven decisions.
 
 ---
